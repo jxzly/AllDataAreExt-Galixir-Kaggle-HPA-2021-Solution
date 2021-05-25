@@ -2,11 +2,11 @@
 
 ##  Teammates
 
-  - Qishen Ha is Master of Engineering from the University of Tokyo. Machine Learning and Engineer at LINE Corp.
+  - Qishen Ha is Master of Engineering from the University of Tokyo. Machine Learning Engineer at LINE Corp. Z by HP & NVIDIA Global Data Science Ambassador.
 
   - Bo is currently a Senior Deep Learning Data Scientist at NVIDIA and has been a Kaggle Grandmaster since 2019.
 
-  - Gary is currently a Algorithm Engineer at ReadSense based in the China and has been a Kaggle Grandmaster since 2019.
+  - Gary is currently a Algorithm Engineer at ReadSense based in the China and has been a Kaggle Grandmaster since 2019. Z by HP & NVIDIA Global Data Science Ambassador.
 
   - daishu is a Researcher at Galixir and has been a Kaggle Grandmaster since 2019.
 
@@ -24,7 +24,7 @@ The second one is trained with 768 random crop 512, and then tested almost the s
 
 The training process incorporates two augmentation methods designed for this task, in addition to augment by random rotation, flipping, cropping, cutout and adjusting brightness. One is to multiply the data of the green channel (Protein) by a random number in the range of `[0.0,0.1]` with small probability while setting the label to negative to improve the model's ability to recognize negative samples. The other is to set the green channel to red (Microtubules) or yellow (Endoplasmicreticulum) with a small probability and multiply it by a random number in the range of `[0.6,1.0]`, and change the label to the Microtubules or Endoplasmicreticulum.
 
-### 3D cell augmentation module
+### pseudo-3D cell augmentation module
 
 We pre-crop all the cells of each image and save them locally. Then during training, for each image we randomly select 16 cells. We then set `bs=32`, so for each batch we have `32x16=512` cells in total.
 
