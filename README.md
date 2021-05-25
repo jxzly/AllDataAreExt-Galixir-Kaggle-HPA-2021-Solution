@@ -66,10 +66,10 @@ We average the different model predictions from different methods.
 
   - **`S2_data_process.py`**: generate 512-image and 512-cell mask
 
-  - **`S3_train_pipeline1.py`**: train 2d image level models
+  - **`S3_train_pipeline1.py`**: train image-to-cell augmentation module
 
-  - **`S4.1_crop_cells.py`**: crop training cells for 3d models
+  - **`S4.1_crop_cells.py`**: crop training cells for pseudo-3D cell augmentation module
 
-  - **`S4.2_train_pipeline2.py`**: train 3d cell level models
+  - **`S4.2_train_pipeline2.py`**: train pseudo-3D cell augmentation module
 
   - **`S5_predict.py`**: generate submission.csv
