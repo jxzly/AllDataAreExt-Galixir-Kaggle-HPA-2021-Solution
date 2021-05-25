@@ -70,6 +70,6 @@ We average the different model predictions from different methods.
 
   - **`S4.1_crop_cells.py`**: crop training cells for 3d models
 
-  - **`S4.2_train_pipeline2`**.py: train 3d cell level models
+  - **`S4.2_train_pipeline2.py`**: train 3d cell level models
 
   - **`S5_predict.py`**: generate submission.csv
