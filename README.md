@@ -58,7 +58,7 @@ We average the different model predictions from different methods.
 
   **│   └── `hpa-single-cell-image-classification`** : official data and kaggle_2021.tsv
 
-  **├── `output` ** :  logs, models and submission
+  **├── `output`** :  logs, models and submission
 
 ## Code
 
