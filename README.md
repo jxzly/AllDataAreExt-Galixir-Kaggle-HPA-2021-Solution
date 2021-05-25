@@ -12,7 +12,7 @@
 
 ## Methods
 
-![Overview of Methods](https://github.com/jxzly/AllDataAreExt-Galixir-Kaggle-HPA-2021-Solution/main/fig/methods.jpg?raw=true)
+![Overview of Methods](https://github.com/jxzly/AllDataAreExt-Galixir-Kaggle-HPA-2021-Solution/blob/main/fig/methods.jpg)
 
 ### Image-to-cell augmentation module
 
