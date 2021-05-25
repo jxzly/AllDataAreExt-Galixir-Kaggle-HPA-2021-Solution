@@ -4,7 +4,7 @@
 
   - Qishen Ha is Master of Engineering from the University of Tokyo. Machine Learning Engineer at LINE Corp. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
 
-  - Bo is currently a Senior Deep Learning Data Scientist at NVIDIA. Kaggle Competition Grandmaster.
+  - Bo Liu is currently a Senior Deep Learning Data Scientist at NVIDIA based in the U.S. and a Kaggle Competition Grandmaster.
 
   - Gary is currently a Algorithm Engineer at ReadSense based in the China. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
 
