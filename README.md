@@ -16,13 +16,15 @@
 
 ### Image-to-cell augmentation module
 
-We used two methods to train-test this pipeline.
+We used two methods to train and make predictions in our pipeline.
 
-The first one is to train with 512 images, and the test input is also 512. We loop n times for each image (n is the number of cells in the image), leaving only one cell in each time and masking out the other cells to get single cell predictions.
+Firstly, we use 512 x 512 image size to train and test. For predicting, we loop n times for each image (n is the number of cells in the image), leaving only one cell in each time and masking out the other cells to get single cell predictions.
 
-The second one is trained with 768 random crop 512, and then tested almost the same way as the first one, but not only mask out the other cells, but we also put the position of the cells left in the center of the image.
+The second method is trained with 768 x 786 images with random crop to 512 x 512 then tested almost the same way as our first approach. Specifically, we not only mask out the other cells but reposition of the cells in the left to the center of the image as well.
 
-The training process incorporates two augmentation methods designed for this task, in addition to augment by random rotation, flipping, cropping, cutout and adjusting brightness. One is to multiply the data of the green channel (Protein) by a random number in the range of `[0.0,0.1]` with small probability while setting the label to negative to improve the model's ability to recognize negative samples. The other is to set the green channel to red (Microtubules) or yellow (Endoplasmicreticulum) with a small probability and multiply it by a random number in the range of `[0.6,1.0]`, and change the label to the Microtubules or Endoplasmicreticulum.
+The two methods share the same training process, in which we incorporate two augmentation approach specifically designed for this task, in addition to regular augmentation methods such as random rotation, flipping, cropping, cutout and brightness adjusting.
+The first augmentation approach is, with a small probability, multiplying the data of the green channel (protein) by a random number in the range of [0.0,0.1] while setting the label to negative to improve the model's ability to recognize negative samples.
+The other augmentation approach is, with a small probability, setting the green channel to red (Microtubules) or yellow (Endoplasmicreticulum), multiplying it by a random number in the range of [0.6,1.0] and changing the label to the Microtubules or Endoplasmicreticulum.
 
 ### pseudo-3D cell augmentation module
 
