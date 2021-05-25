@@ -8,7 +8,7 @@
 
   - Gary is currently a Algorithm Engineer at ReadSense based in the China. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
 
-  - daishu is a Researcher at Galixir. Kaggle Competition Grandmaster.
+  - Daishu is currently a Senior Research Scientist at Galixir. Kaggle Competition Grandmaster.
 
 ## Methods
 
