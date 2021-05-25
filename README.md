@@ -1,6 +1,6 @@
 # AllDataAreExt-Galixir-Kaggle-HPA-2021-Solution
 
-##  Teammates
+##  Team Members
 
   - Qishen Ha is Master of Engineering from the University of Tokyo. Machine Learning Engineer at LINE Corp. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
 
