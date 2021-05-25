@@ -2,13 +2,13 @@
 
 ##  Teammates
 
-  - Qishen Ha is Master of Engineering from the University of Tokyo. Machine Learning Engineer at LINE Corp. Z by HP & NVIDIA Global Data Science Ambassador.
+  - Qishen Ha is Master of Engineering from the University of Tokyo. Machine Learning Engineer at LINE Corp. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
 
-  - Bo is currently a Senior Deep Learning Data Scientist at NVIDIA and has been a Kaggle Grandmaster since 2019.
+  - Bo is currently a Senior Deep Learning Data Scientist at NVIDIA. Kaggle Competition Grandmaster.
 
-  - Gary is currently a Algorithm Engineer at ReadSense based in the China and has been a Kaggle Grandmaster since 2019. Z by HP & NVIDIA Global Data Science Ambassador.
+  - Gary is currently a Algorithm Engineer at ReadSense based in the China. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
 
-  - daishu is a Researcher at Galixir and has been a Kaggle Grandmaster since 2019.
+  - daishu is a Researcher at Galixir. Kaggle Competition Grandmaster.
 
 ## Methods
 
@@ -43,13 +43,21 @@ We average the different model predictions from different methods.
 ## Tree-Structured Directory
 
   **├── `input`**
+
   **│   ├──`hpa-512`**: 512-image and 512-cell mask
+
   **│   │   ├── `test`**
+
   **│   │   ├── `test_cell_mask`**
+
   **│   │   ├── `train`**
+
   **│   │   └── `train_cell_mask`**
+
   **│   ├── `hpa-seg`** : official segmentation models
+
   **│   └── `hpa-single-cell-image-classification`** : official data and kaggle_2021.tsv
+
   **├── `output` ** :  logs, models and submission
 
 ## Code
