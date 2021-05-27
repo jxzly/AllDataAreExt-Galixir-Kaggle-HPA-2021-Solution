@@ -6,7 +6,7 @@
 
   - Bo Liu is currently a Senior Deep Learning Data Scientist at NVIDIA based in the U.S. and a Kaggle Competition Grandmaster.
 
-  - Gary is currently a Algorithm Engineer at ReadSense based in the China. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
+  - Fuxu Liu is currently a Algorithm Engineer at ReadSense based in the China. Kaggle Competition Grandmaster. Z by HP & NVIDIA Global Data Science Ambassador.
 
   - Daishu is currently a Senior Research Scientist at Galixir. Kaggle Competition Grandmaster.
 
